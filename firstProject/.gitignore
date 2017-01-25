@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+/target/
+/src/test/resources/logs
+4invest.iml
+invest.iml
+/ScreenShot
+server.txt

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="core.util.IInvokedListenerSeverity"/>
+    </listeners>
+
+    <parameter name="path" value="/"/>
+
+    <test name="Test Widjets">
+        <classes>
+
+            <class name="TEST_Widjets.TEST_001v009_Check_that_all_widjets_are_working"/>
+            <class name="TEST_Widjets.TEST_011_Check_that_link_about_service_works"/>
+
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->
+

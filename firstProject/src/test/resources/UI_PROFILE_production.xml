@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name=".core.util.IInvokedListenerSeverity" />
+    </listeners>
+
+    <parameter name="path" value="/"/>
+
+    <test name="Test My Profile">
+        <classes>
+
+            <class name="TEST_My_Profile.TEST_001_MYPROFILE_Open_page"/>
+            <class name="TEST_My_Profile.TEST_002_MYPROFILE_Change_status"/>
+            <class name="TEST_My_Profile.TEST_003_MYPROFILE_Public_phone"/>
+            <class name="TEST_My_Profile.TEST_004_MYPROFILE_Public_Email"/>
+            <class name="TEST_My_Profile.TEST_005_MYPROFILE_Change_general_information"/>
+            <class name="TEST_My_Profile.TEST_006_MYPROFILE_Cant_change_generalInfo_without_pass"/>
+            <class name="TEST_My_Profile.TEST_007_MYPROFILE_Cant_type_generalInfo_not_valid_email"/>
+            <class name="TEST_My_Profile.TEST_008_MYPROFILE_Change_contact_information"/>
+            <class name="TEST_My_Profile.TEST_009_MYPROFILE_Disable_my_personal_page"/>
+            <class name="TEST_My_Profile.TEST_010_MYPROFILE_Change_photo"/>
+
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->
+

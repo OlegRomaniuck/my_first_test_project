@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="core.util.IInvokedListenerSeverity" />
+    </listeners>
+
+    <parameter name="path" value="/"/>
+
+    <test name="Test Registration">
+        <classes>
+
+            <class name="TEST_Registration.Test_001_SUCCESS_REGISTRATION_Using_PayPal"/>
+            <class name="TEST_Registration.Test_002_FAIL_REGISTRATION_Empty_Fields"/>
+            <class name="TEST_Registration.Test_003_FAIL_REGISTRATION_Name_Max_Limit_Eng"/>
+            <class name="TEST_Registration.Test_003_FAIL_REGISTRATION_Name_Max_Limit_Rus"/>
+            <class name="TEST_Registration.Test_004_FAIL_REGISTRATION_Login_Max_Limit_Eng"/>
+            <class name="TEST_Registration.Test_004_FAIL_REGISTRATION_Login_Max_Limit_Rus"/>
+            <class name="TEST_Registration.Test_005_FAIL_REGISTRATION_Name_Min_Limit_Eng"/>
+            <class name="TEST_Registration.Test_005_FAIL_REGISTRATION_Name_Min_Limit_Rus"/>
+            <class name="TEST_Registration.Test_006_FAIL_REGISTRATION_Login_Min_Limit_Eng"/>
+            <class name="TEST_Registration.Test_006_FAIL_REGISTRATION_Login_Min_Limit_Rus"/>
+            <class name="TEST_Registration.Test_007_FAIL_REGISTRATION_Password_Min_Limit_Eng"/>
+            <class name="TEST_Registration.Test_007_FAIL_REGISTRATION_Password_Min_Limit_Rus"/>
+            <class name="TEST_Registration.Test_008_FAIL_REGISTRATION_PasswordRepeat_Min_Limit_Eng"/>
+            <class name="TEST_Registration.Test_008_FAIL_REGISTRATION_PasswordRepeat_Min_Limit_Rus"/>
+            <class name="TEST_Registration.Test_009_FAIL_REGISTRATION_Name_Spaces_Eng"/>
+            <class name="TEST_Registration.Test_009_FAIL_REGISTRATION_Name_Spaces_Rus"/>
+            <class name="TEST_Registration.Test_010_FAIL_REGISTRATION_Login_Spaces_Eng"/>
+            <class name="TEST_Registration.Test_010_FAIL_REGISTRATION_Login_Spaces_Rus"/>
+            <class name="TEST_Registration.Test_011_FAIL_REGISTRATION_Empty_All_FieldRequire_Eng"/>
+            <class name="TEST_Registration.Test_011_FAIL_REGISTRATION_Empty_All_FieldRequire_Rus"/>
+            <class name="TEST_Registration.Test_012_FAIL_REGISTRATION_Email__Not_Valid_Eng"/>
+            <class name="TEST_Registration.Test_012_FAIL_REGISTRATION_Email__Not_Valid_Rus"/>
+            <class name="TEST_Registration.Test_013_FAIL_REGISTRATION_Different_Passwords_Eng"/>
+            <class name="TEST_Registration.Test_013_FAIL_REGISTRATION_Different_Passwords_Rus"/>
+            <class name="TEST_Registration.Test_014_FAIL_REGISTRATION_Empty_Repeat_Passwords_Eng"/>
+            <class name="TEST_Registration.Test_014_FAIL_REGISTRATION_Empty_Repeat_Passwords_Rus"/>
+            <class name="TEST_Registration.Test_015_FAIL_REGISTRATION_Not_Valid_Values_Eng"/>
+            <class name="TEST_Registration.Test_016_FAIL_REGISTRATION_Exist_Email_Eng"/>
+            <class name="TEST_Registration.Test_016_FAIL_REGISTRATION_Exist_Email_Rus"/>
+            <class name="TEST_Registration.Test_017_FAIL_REGISTRATION_Exist_Login_Eng"/>
+            <class name="TEST_Registration.Test_017_FAIL_REGISTRATION_Exist_Login_Rus"/>
+            <class name="TEST_Registration.Test_018_REGISTRATION_Showing_PaySystem_GOLD_Eng"/>
+            <class name="TEST_Registration.Test_019_REGISTRATION_Showing_PaySystem_Platinum_Eng"/>
+            <class name="TEST_Registration.Test_020_FAIL_REGISTRATION_SignUp_Without_Checkbox_Eng"/>
+            <class name="TEST_Registration.Test_020_FAIL_REGISTRATION_SignUp_Without_Checkbox_Rus"/>
+            <class name="TEST_Registration.Test_021_FAIL_REGISTRATION_SignUp_Without_Subscription_Eng"/>
+            <class name="TEST_Registration.Test_021_FAIL_REGISTRATION_SignUp_Without_Subscription_Rus"/>
+            <class name="TEST_Registration.Test_022_REGISTRATION_Showing_License_Eng"/>
+            <class name="TEST_Registration.Test_023_REGISTRATION_Dropdown_Price_Gold"/>
+            <class name="TEST_Registration.Test_024_REGISTRATION_Dropdown_Price_Platinum"/>
+            <class name="TEST_Registration.Test_025_REGISTRATION_Dont_Fill_Paypal_SignUp"/>
+            <class name="TEST_Registration.Test_026_REGISTRATION_Disappear_This_Field_Is_Require_Step1"/>
+
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->
+
